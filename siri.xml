@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <State id="0">
+        <message>bonjour, je m'appelle alexa, qu'elle est ton nom?</message>
+        <keywords>
+            <keyword target="16" variable="name" points="2">.*je m'appelle ([a-zA-z]+).*</keyword>
+            <keyword target="16" variable="name">([a-zA-Z ]+)</keyword>
+        </keywords>
+    </State>
+
+    <State id="1">
+        <message>De quoi veux-tu parler?</message>
+        <message>Quoi d'autre?</message>
+        <message>Dis m'en plus...</message>
+        <message>Qu'est-ce que tu veux vraiment savoir ?</message>
+        <keyword className="Weather" arg="today">la météo</keyword>
+        <keyword className="Weather" arg="tomorrow">météo de demain</keyword>
+        <keyword className="Weather" arg="dayaftertomorrow">après demain</keyword>
+        <keyword target="15" variable="status">.je suis ([a-zA-Z]+).</keyword>
+        <keyword target="16" variable="name">.je m'appelle ([a-zA-z]+).</keyword>
+        <keyword variable="subject" target="27">([a-zA-z]+)</keyword>
+    </State>
+
+    <State id="11">
+        <message>C'est super, pourquoi es-tu heureux ?</message>
+        <keywords>
+            <keyword target="21">loterie</keyword>
+            <keyword target="23">terminer le devoir</keyword>
+            <keyword target="32">vacances</keyword>
+            <keyword target="22">*</keyword>
+        </keywords>
+    </State>
+
+    <State id="13">
+        <message>Pourquoi? Qu'est-ce qui ne va pas?</message>
+        <keywords>
+            <keyword target="22">malade</keyword>
+            <keyword target="25">*</keyword>
+        </keywords>
+    </State>
+
+    <State id="14">
+        <message>Je vais très bien merci.</message>
+    </State>
+
+    <State id="15">
+        <message>Pourquoi tu es [status]?</message>
+        <keyword target="26" variable="reason">.because (.)</keyword>
+    </State>
+
+
+    <State id="21">
+        <message>Wow, tu m'en donnes ?</message>
+        <keywords>
+            <keyword target="31">Yes</keyword>
+            <keyword target="41">No</keyword>
+        </keywords>
+    </State>
+
+    <State id="22">
+        <message>Oh, j'espère que tu iras mieux bientôt</message>
+    </State>
+
+    <State id="23">
+        <message>C'est bien, quel est ton plan ?</message>
+        <keywords>
+            <keyword target="32">vacances</keyword>
+            <keyword target="33">à propos de quoi</keyword>
+            <keyword target="43">*</keyword>
+        </keywords>
+    </State>
+
+    <State id="24">
+        <message>Croyez-vous que c'est une bonne raison d'être heureux ?</message>
+        <keyword target="43">*</keyword>
+    </State>
+
+    <State id="25">
+        <message>Désolé d'entendre ça! Que se passe-t-il?</message>
+        <keyword target="44">*</keyword>
+    </State>
+
+    <State id="26">
+        <message>[name] pensez-vous que c’est une bonne raison d’être [status]?</message>
+        <keyword target="43">*</keyword>
+    </State>
+
+    <State id="27">
+        <message>comment ca veut dire [subject]?</message>
+        <keyword target="43" variable="result" learn="subject">(.*)</keyword>
+    </State>
+
+    <State id="31">
+        <message>Super, j’apprécie ça.</message>
+    </State>
+
+    <State id="32">
+        <message>cool un bon plan</message>
+        <message>cool</message>
+    </State>
+
+    <State id="33">
+        <message>Un plan pour ton avenir ?</message>
+        <keyword target="42">non</keyword>
+        <keyword target="43">*</keyword>
+    </State>
+
+    <State id="41">
+        <message>Tu es trop gourmand !</message>
+    </State>
+
+    <State id="42">
+        <message>pourquoi pas?</message>
+        <keyword target="43">*</keyword>
+    </State>
+
+    <State id="43">
+        <message>intéressant...</message>
+        <message>je vois...</message>
+        <message>Hmmm...</message>
+        <message>pas de commentaire...</message>
+    </State>
+
+    <State id="44">
+        <message>Qu’est-ce que tu veux dire ?</message>
+        <keyword target="43">*</keyword>
+    </State>
+
+
+    <InvalidMessages>
+        <message>Je n’ai pas compris ?</message>
+        <message>Qu’est-ce que tu veux dire ?</message>
+        <message>Tu peux m’expliquer ?</message>
+    </InvalidMessages>
+
+
+    <State id="16">
+        <message>Bonjour [name], comment vas-tu aujourd'hui?</message>
+        <keyword target="11">heureux, très heureux</keyword>
+        <keyword target="13">pas content, pas bien, pas bien, triste, bouleversé</keyword>
+        <keyword target="23">bien, bien, merci</keyword>
+    </State>
+
+
+</Config>

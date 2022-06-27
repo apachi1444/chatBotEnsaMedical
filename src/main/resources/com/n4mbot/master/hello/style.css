@@ -1,0 +1,41 @@
+.parent{
+    -fx-background-color: transparent;
+}
+.pane{
+    -fx-background-color: #6984d1;
+}
+.box {
+    -fx-background-color: linear-gradient( to left top,#36096d, #37d5d6 );
+}
+.button{
+    -fx-font-weight: bold;
+    -fx-background-color: #36454F;
+    -fx-background-radius: 32;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 32;
+    -fx-font-size: 16;
+    -fx-text-fill: #36454F ;
+    -fx-background-color:  white;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-border-color: #36454F;
+}
+.button :pressed{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 32;
+    -fx-font-size: 16;
+    -fx-text-fill: #36454F ;
+    -fx-background-color:  #36454F;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-rotate: 10;
+}
+.anchore{
+    -fx-background-color: transparent;
+}

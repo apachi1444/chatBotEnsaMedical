@@ -1,0 +1,29 @@
+.anchore{
+    -fx-background-color: linear-gradient( to right, #29524a , #e9bcb7 );
+}
+.pane{
+    -fx-background-color: #29524a ;
+}
+/*.labelhi{
+    -fx-background-color: #9aa6a6;
+    -fx-background-radius: 100px;
+}
+ */
+.txt{
+    -fx-background-color: #9aa6a6;
+    -fx-background-radius: 100px;
+}
+.txtf{
+    -fx-background-color: #8ca8a2;
+    -fx-background-radius: 100px;
+}
+.texte{
+    -fx-background-radius: 100px;
+}
+.but{
+    -fx-font-weight: bold;
+    -fx-background-color: #29524a;
+    -fx-background-radius: 32;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}

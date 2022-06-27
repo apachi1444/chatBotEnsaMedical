@@ -1,0 +1,34 @@
+.anchore{
+    -fx-background-color:#2C3E50;
+}
+.anchorepane{
+    -fx-background-color: linear-gradient( to bottom ,#2C3E50,#8ca8a2);
+}
+.butt{
+    -fx-font-weight: bold;
+    -fx-background-color: #2C3E50;
+    -fx-background-radius: 32;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+.butt:hover{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 32;
+    -fx-font-size: 16;
+    -fx-text-fill: #2C3E50 ;
+    -fx-background-color:  white;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-border-color: #2C3E50;
+}
+.butt:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 32;
+    -fx-font-size: #2C3E50 ;
+    -fx-background-color: #2C3E50 ;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-rotate: 10;
+}

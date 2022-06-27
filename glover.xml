@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <State id="0">
+        <message>bonjour, je m'appelle alexa, qu'elle est ton nom?</message>
+        <keywords>
+            <keyword target="16" variable="name" points="2">.*je m'appelle ([a-zA-z]+).*</keyword>
+            <keyword target="16" variable="name">([a-zA-Z ]+)</keyword>
+        </keywords>
+    </State>
+
+    <State id="1">
+        <message>De quoi veux-tu parler?</message>
+        <message>Quoi d'autre?</message>
+        <message>Dis m'en plus...</message>
+        <message>Qu'est-ce que tu veux vraiment savoir ?</message>
+        <keyword className="Weather" arg="today">la météo</keyword>
+        <keyword className="Weather" arg="tomorrow">météo de demain</keyword>
+        <keyword className="Weather" arg="dayaftertomorrow">après demain</keyword>
+        <keyword target="15" variable="status">.je suis ([a-zA-Z]+).</keyword>
+        <keyword target="16" variable="name">.je m'appelle ([a-zA-z]+).</keyword>
+        <keyword variable="subject" target="27">([a-zA-z]+)</keyword>
+    </State>
+
+    <State id="11">
+        <message>C'est super, pourquoi es-tu heureux ?</message>
+        <keywords>
+            <keyword target="21">loterie</keyword>
+            <keyword target="23">terminer le devoir</keyword>
+            <keyword target="32">vacances</keyword>
+            <keyword target="22">*</keyword>
+        </keywords>
+    </State>
+
+    <State id="13">
+        <message>Pourquoi? Qu'est-ce qui ne va pas?</message>
+        <keywords>
+            <keyword target="22">malade</keyword>
+            <keyword target="25">*</keyword>
+        </keywords>
+    </State>
+
+    <State id="14">
+        <message>Je vais très bien merci.</message>
+    </State>
+
+    <State id="15">
+        <message>Pourquoi tu es [status]?</message>
+        <keyword target="26" variable="reason">.because (.)</keyword>
+    </State>
+
+
+    <State id="21">
+        <message>Wow, tu m'en donnes ?</message>
+        <keywords>
+            <keyword target="31">Yes</keyword>
+            <keyword target="41">No</keyword>
+        </keywords>
+    </State>
+
+    <State id="22">
+        <message>Oh, j'espère que tu iras mieux bientôt</message>
+    </State>
+
+    <State id="23">
+        <message>C'est bien, quel est ton plan ?</message>
+        <keywords>
+            <keyword target="32">vacances</keyword>
+            <keyword target="33">à propos de quoi</keyword>
+            <keyword target="43">*</keyword>
+        </keywords>
+    </State>
+
+    <State id="24">
+        <message>Croyez-vous que c'est une bonne raison d'être heureux ?</message>
+        <keyword target="43">*</keyword>
+    </State>
+
+    <State id="25">
+        <message>Désolé d'entendre ça! Que se passe-t-il?</message>
+        <keyword target="44">*</keyword>
+    </State>
+
+    <State id="26">
+        <message>[name] pensez-vous que c’est une bonne raison d’être [status]?</message>
+        <keyword target="43">*</keyword>
+    </State>
+
+    <State id="27">
+        <message>comment ca veut dire [subject]?</message>
+        <keyword target="43" variable="result" learn="subject">(.*)</keyword>
+    </State>
+
+    <State id="31">
+        <message>Super, j’apprécie ça.</message>
+    </State>
+
+    <State id="32">
+        <message>cool un bon plan</message>
+        <message>cool</message>
+    </State>
+
+    <State id="33">
+        <message>Un plan pour ton avenir ?</message>
+        <keyword target="42">non</keyword>
+        <keyword target="43">*</keyword>
+    </State>
+
+    <State id="41">
+        <message>Tu es trop gourmand !</message>
+    </State>
+
+    <State id="42">
+        <message>pourquoi pas?</message>
+        <keyword target="43">*</keyword>
+    </State>
+
+    <State id="43">
+        <message>intéressant...</message>
+        <message>je vois...</message>
+        <message>Hmmm...</message>
+        <message>pas de commentaire...</message>
+    </State>
+
+    <State id="44">
+        <message>Qu’est-ce que tu veux dire ?</message>
+        <keyword target="43">*</keyword>
+    </State>
+
+
+    <InvalidMessages>
+        <message>Je n’ai pas compris ?</message>
+        <message>Qu’est-ce que tu veux dire ?</message>
+        <message>Tu peux m’expliquer ?</message>
+    </InvalidMessages>
+
+
+    <State id="16">
+        <message>Bonjour [name], comment vas-tu aujourd'hui?</message>
+        <keyword target="11">heureux, très heureux</keyword>
+        <keyword target="13">pas content, pas bien, pas bien, triste, bouleversé</keyword>
+        <keyword target="23">bien, bien, merci</keyword>
+        <keyword target="100">malade, je souffre,probleme,je suis malade</keyword>
+
+    </State>
+
+    <State id="100">
+        <message>à votre service à tout moment comment puis je vous aider?</message>
+        <message>De quoi souffres-tu ?</message>
+        <keyword target="101">c'est quoi la schizophrenie,schizophrenie</keyword>
+        <keyword target="102">la autisme,c'est quoi l'autisme,</keyword>
+        <keyword target="103">c'est quoi la trouble bipolaire,trouble bipolaire,je souffre de trouble bipolaire
+        </keyword>
+        <keyword target="104">trouble de la personnalité,c'est quoi la trouble de la personnalité</keyword>
+    </State>
+
+    <State id="101">
+        <message>lorsqu’une personne entend des voix que personne d’autre n’entend, qui la poussent souvent à faire
+            certaines choses.
+        </message>
+
+        <keyword target="1011">traitement de la schizophrenie,donc la solution,la solution,donc,emm,alors</keyword>
+
+    </State>
+    <State id="1011">
+        <message>Médicaments.
+            Psychothérapie.
+            Hospitalisation.
+            L'électroconvulsivothérapie (ECT) .
+            La formation professionnelle.
+        </message>
+        <keyword target="100">*</keyword>
+
+    </State>
+
+    <State id="102">
+        <message>plus fréquent chez les garçons que chez les filles, ce trouble se caractérise par un déficit du
+            développement, qui empêche l’individu de communiquer,
+            d’imaginer ou de planifier.
+        </message>
+
+        <keyword target="1022">traitement d'autisme,donc la solution,la solution,donc,emm,alors</keyword>
+
+    </State>
+
+    <State id="1022">
+        <message>A l’heure actuelle, il n'existe pas de traitements médicamenteux de l’autisme
+            . Les seuls médicaments utilisés et recommandés le sont pour traiter les complications
+            associées. Il peut s’agir d’antiépileptiques en cas d’épilepsie, de médicaments pour traiter
+            le transit intestinal, de neuroleptiques en cas
+            de troubles du comportement importants ou d’anxiété.
+        </message>
+
+        <keyword target="100">*</keyword>
+
+    </State>
+
+    <State id="103">
+        <message>ce trouble provoque des émotions exagérées et poussées à l’extrême.
+            Par exemple, l’individu peut être très content puis
+            soudainement dans un état dépressif maximum.
+        </message>
+
+        <keyword target="1033">traitement de la trouble bipolaire,donc la solution,la solution,donc,emm,alors</keyword>
+
+    </State>
+    <State id="1033">
+        <message>Les traitements les plus souvent prescrits pour le du trouble bipolaire
+            sont appelés thymorégulateurs ou régulateurs de l’humeur.
+            Ces traitements permettent de réduire la fréquence,
+            la durée et l’intensité des épisodes et d’améliorer la qualité des intervalles libres.
+            Leur efficacité
+            ne peut être évaluée qu’après au moins 6 mois de traitement.
+        </message>
+
+        <keyword target="100">*</keyword>
+
+    </State>
+
+    <State id="104">
+        <message>ensemble de perturbations qui affectent
+            la dimension émotionnelle, affective et sociale d’un individu.
+            Les plus connus sont les troubles de la personnalité antisociale
+            et le trouble de la personnalité limite
+        </message>
+
+        <keyword target="1044">traitement de l'eczema',donc la solution,la solution,donc,emm,alors</keyword>
+
+    </State>
+    <State id="1044">
+        <message>Le traitement peut varier selon le type et la gravité de votre trouble de la personnalité.
+            Il peut comprendre une psychothérapie et des médicaments
+        </message>
+
+        <keyword target="100">*</keyword>
+
+    </State>
+
+
+</Config>

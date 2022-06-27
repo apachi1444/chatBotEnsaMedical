@@ -1,0 +1,25 @@
+.anchore{
+    -fx-background-color: linear-gradient( to right ,#2C3E50, #FD746C);
+}
+.pane{
+    -fx-background-color: #2C3E50;
+}
+
+.txt{
+    -fx-background-color: #0B486B;
+    -fx-background-radius: 100px;
+}
+.txtf{
+    -fx-background-color: #8ca8a2;
+    -fx-background-radius: 100px;
+}
+.texte{
+    -fx-background-radius: 100px;
+}
+.but{
+    -fx-font-weight: bold;
+    -fx-background-color: #29524a;
+    -fx-background-radius: 32;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
