@@ -17,7 +17,7 @@
                   <Font name="MV Boli" size="18.0" />
                </font>
             </Label>
-            <Button fx:id="closeButton" layoutX="479.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeHomeOnAcion" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: transparent;" text="X" textFill="#030303">
+            <Button fx:id="closeButton" layoutX="479.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeHomeOnAcion" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: red;" text="X" textFill="#030303">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -47,32 +47,32 @@
             <Font name="MV Boli" size="14.0" />
          </font>
       </Label>
-      <RadioButton id="nj" layoutX="6.0" layoutY="394.0" mnemonicParsing="false" text="Femme" textFill="#2535c3">
+      <RadioButton id="nj" layoutX="6.0" layoutY="394.0" mnemonicParsing="false" text="Femme" textFill="#000">
          <toggleGroup>
             <ToggleGroup fx:id="Group1" />
          </toggleGroup></RadioButton>
-      <RadioButton id="nj" layoutX="116.0" layoutY="394.0" mnemonicParsing="false" text="Homme" textFill="#2535c3" toggleGroup="$Group1" />
+      <RadioButton id="nj" layoutX="116.0" layoutY="394.0" mnemonicParsing="false" text="Homme" textFill="#000" toggleGroup="$Group1" />
       <Label layoutX="15.0" layoutY="475.0" text="Vous disposez d'une maladie chronique ?" textFill="WHITE">
          <font>
             <Font name="MV Boli" size="14.0" />
          </font>
       </Label>
-      <RadioButton layoutX="6.0" layoutY="500.0" mnemonicParsing="false" text="Affection cardiaque" textFill="#2535c3">
+      <RadioButton layoutX="6.0" layoutY="500.0" mnemonicParsing="false" text="Affection cardiaque" textFill="#000">
          <font>
             <Font name="MV Boli" size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton layoutX="6.0" layoutY="525.0" mnemonicParsing="false" text="Affection pulmonaire" textFill="#2535c3">
+      <RadioButton layoutX="6.0" layoutY="525.0" mnemonicParsing="false" text="Affection pulmonaire" textFill="#000">
          <font>
             <Font name="MV Boli" size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton layoutX="6.0" layoutY="550.0" mnemonicParsing="false" text="Déficit immunitaire" textFill="#2535c3">
+      <RadioButton layoutX="6.0" layoutY="550.0" mnemonicParsing="false" text="Déficit immunitaire" textFill="#000">
          <font>
             <Font name="MV Boli" size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton layoutX="6.0" layoutY="575.0" mnemonicParsing="false" text="Diabète" textFill="#2535c3">
+      <RadioButton layoutX="6.0" layoutY="575.0" mnemonicParsing="false" text="Diabète" textFill="#000">
          <font>
             <Font name="MV Boli" size="14.0" />
          </font>
@@ -99,7 +99,7 @@
             <Font name="MV Boli" size="14.0" />
          </font>
       </Label>
-      <RadioButton layoutX="6.0" layoutY="452.0" mnemonicParsing="false" text="Oui" textFill="#2535c3">
+      <RadioButton layoutX="6.0" layoutY="452.0" mnemonicParsing="false" text="Oui" textFill="#000">
          <font>
             <Font size="14.0" />
          </font>
@@ -107,7 +107,7 @@
             <ToggleGroup fx:id="Group2" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton layoutX="116.0" layoutY="452.0" mnemonicParsing="false" text="Non" textFill="#2535c3" toggleGroup="$Group2">
+      <RadioButton layoutX="116.0" layoutY="452.0" mnemonicParsing="false" text="Non" textFill="#000" toggleGroup="$Group2">
          <font>
             <Font size="14.0" />
          </font>

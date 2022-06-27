@@ -1,11 +1,16 @@
 .anchore{
-    -fx-background-color: linear-gradient( to left top,#36096d, #37d5d6 );
+    -fx-background-color: #0088CC;
 }
 .pane{
-    -fx-background-color: #4c6ead;
+    -fx-background-color: #04ADFF ;
 }
+/*.labelhi{
+    -fx-background-color: #9aa6a6;
+    -fx-background-radius: 100px;
+}
+ */
 .txt{
-    -fx-background-color: #4c6ead;
+    -fx-background-color: #9aa6a6;
     -fx-background-radius: 100px;
 }
 .txtf{
@@ -15,31 +20,10 @@
 .texte{
     -fx-background-radius: 100px;
 }
-.butt{
+.but{
     -fx-font-weight: bold;
-    -fx-background-color: #36096d;
+    -fx-background-color: white;
     -fx-background-radius: 32;
     -fx-font-size: 16;
     -fx-text-fill: white;
-}
-.butt:hover{
-    -fx-font-weight: bold;
-    -fx-background-color: white;
-    -fx-background-radius: 32;
-    -fx-font-size: 16;
-    -fx-text-fill: #36096d ;
-    -fx-background-color:  white;
-    -fx-border-radius: 20;
-    -fx-border-width: 3;
-    -fx-border-color: #36096d;
-}
-.butt:pressed{
-    -fx-font-weight: bold;
-    -fx-background-color: white;
-    -fx-background-radius: 32;
-    -fx-font-size: #36096d ;
-    -fx-background-color:  #36096d;
-    -fx-border-radius: 20;
-    -fx-border-width: 3;
-    -fx-rotate: 10;
 }

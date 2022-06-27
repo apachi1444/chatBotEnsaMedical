@@ -10,26 +10,25 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.n4mbot.master.login.LoginController">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ensabot.master.login.LoginController">
     <children>
-        <AnchorPane prefHeight="400.0" prefWidth="220.0" style="-fx-background-color: linear-gradient( to left top,#36096d, #37d5d6 );">
+        <AnchorPane prefHeight="400.0" prefWidth="220.0" style="-fx-background-color: #0088CC">
             <children>
                 <ImageView fitHeight="123.0" fitWidth="125.0" layoutX="44.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/medical-robot.png" />
+                        <Image url="@images/robot.png" />
                     </image>
                 </ImageView>
-                <Label layoutX="41.0" layoutY="181.0" text="N4MBOT" textFill="WHITE">
+                <Label layoutX="41.0" layoutY="181.0" text="EnsaBot" textFill="WHITE">
                     <font>
                         <Font name="Verdana" size="30.0" />
                     </font>
                 </Label>
-                <Label cache="true" layoutX="58.0" layoutY="369.0" text="Copyright(c) 2022" textFill="WHITE" />
             </children>
         </AnchorPane>
         <AnchorPane prefHeight="400.0" prefWidth="400.0">
             <children>
-                <Button fx:id="seConnecterButton" layoutX="53.0" layoutY="256.0" mnemonicParsing="false" onAction="#seConnecterOnAction" prefHeight="39.0" prefWidth="147.0" style="-fx-background-color: #6984d1; -fx-cursor: hand;" text="Se Connecter" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+                <Button fx:id="seConnecterButton" layoutX="53.0" layoutY="256.0" mnemonicParsing="false" onAction="#seConnecterOnAction" prefHeight="39.0" prefWidth="147.0" style="-fx-background-color: #0088CC; -fx-cursor: hand;" text="Se Connecter" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
                     <font>
                         <Font name="System Bold Italic" size="18.0" />
                     </font>

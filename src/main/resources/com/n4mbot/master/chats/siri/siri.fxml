@@ -14,7 +14,7 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="937.0" styleClass="anchore" stylesheets="@siri.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.n4mbot.master.chats.siri.SiriController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="937.0" styleClass="anchore" stylesheets="@siri.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ensabot.master.chats.siri.SiriController">
     <children>
         <Pane layoutX="262.0" layoutY="-1.0" prefHeight="61.0" prefWidth="676.0" styleClass="anchore" stylesheets="@siri.css">
             <children>
@@ -92,7 +92,7 @@
         </ScrollPane>
         <Pane layoutX="263.0" layoutY="632.0" prefHeight="61.0" prefWidth="676.0">
             <children>
-                <Button fx:id="sendButton" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="552.0" layoutY="3.0" minWidth="50.0" mnemonicParsing="false" onAction="#send" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="but" stylesheets="@../alexa/alexa.css">
+                <Button fx:id="sendButton" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="557.0" layoutY="7.0" minWidth="50.0" mnemonicParsing="false" onAction="#send" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: white;" styleClass="but" stylesheets="@../alexa/alexa.css">
                     <font>
                         <Font size="7.0" />
                     </font>

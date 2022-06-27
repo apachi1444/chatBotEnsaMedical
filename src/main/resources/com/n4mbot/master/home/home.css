@@ -1,11 +1,11 @@
 .button1
 {
--fx-background-color :  linear-gradient( to left top,#36096d,  #6984d1 );
+-fx-background-color :  #0088CC;
 -fx-background-radius :  30 0 0 30;
 }
 .button1:hover
 {
--fx-background-color : #524A7B ;
+-fx-background-color : #006596 ;
 -fx-background-radius :  30 0 0 30;
 }
 .button1:pressed

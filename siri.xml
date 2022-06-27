@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Config>
     <State id="0">
-        <message>bonjour, je m'appelle alexa, qu'elle est ton nom?</message>
+        <message>bonjour, je m'appelle siri, qu'elle est ton nom?</message>
         <keywords>
             <keyword target="16" variable="name" points="2">.*je m'appelle ([a-zA-z]+).*</keyword>
             <keyword target="16" variable="name">([a-zA-Z ]+)</keyword>
@@ -139,7 +139,10 @@
         <keyword target="11">heureux, très heureux</keyword>
         <keyword target="13">pas content, pas bien, pas bien, triste, bouleversé</keyword>
         <keyword target="23">bien, bien, merci</keyword>
+        <keyword target="23">bien</keyword>
+
     </State>
+
 
 
 </Config>

@@ -11,9 +11,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" style="-fx-background-color: #F5F5DC;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.n4mbot.master.home.HomeController">
+<AnchorPane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" style="-fx-background-color: #0088CC;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.n4mbot.master.home.HomeController">
     <children>
-        <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: linear-gradient( to left top,#36096d, #37d5d6 );" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="900.0" AnchorPane.topAnchor="0.0">
+        <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: #04ADFF" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="900.0" AnchorPane.topAnchor="0.0">
             <children>
                 <VBox layoutY="161.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="440.0" prefWidth="157.0" AnchorPane.bottomAnchor="-0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="160.0">
                     <children>
@@ -53,24 +53,7 @@
                                 <Insets />
                             </opaqueInsets>
                         </Button>
-                        <Button fx:id="gloverHome" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="72.0" mnemonicParsing="false" onAction="#showGloverHome" prefHeight="50.0" prefWidth="200.0" styleClass="button1" stylesheets="@home.css" text="GLOVER" textFill="WHITE">
-                            <graphic>
-                                <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@images/Robot3.png" />
-                                    </image>
-                                </ImageView>
-                            </graphic>
-                            <VBox.margin>
-                                <Insets bottom="10.0" top="10.0" />
-                            </VBox.margin>
-                            <font>
-                                <Font name="AGA Arabesque" size="18.0" />
-                            </font>
-                            <opaqueInsets>
-                                <Insets />
-                            </opaqueInsets>
-                        </Button>
+
                         <Button fx:id="settingHome" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="208.0" mnemonicParsing="false" onAction="#showSettingHome" prefHeight="50.0" prefWidth="200.0" styleClass="button1" stylesheets="@home.css" text="Parameter" textFill="WHITE">
                             <graphic>
                                 <ImageView fitHeight="30.0" fitWidth="40.0" layoutX="5.0" pickOnBounds="true" preserveRatio="true" x="5.0">
@@ -91,7 +74,7 @@
                         </Button>
                     </children>
                 </VBox>
-                <Pane layoutY="127.0" prefHeight="44.0" prefWidth="200.0" style="-fx-background-color: linear-gradient( to left top,  #F5F5DC ,blue );" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="127.0">
+                <Pane  layoutY="127.0" prefHeight="44.0" prefWidth="200.0" style="-fx-background-color: #006596" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="127.0">
                     <children>
                         <Label alignment="CENTER" layoutX="71.0" layoutY="11.0" prefHeight="22.0" prefWidth="84.0" text="accueil" textFill="WHITE">
                             <font>
@@ -107,7 +90,7 @@
                 </Pane>
                 <Pane layoutX="11.0" layoutY="14.0" prefHeight="105.0" prefWidth="178.0">
                     <children>
-                        <Label alignment="BASELINE_CENTER" layoutX="10.0" layoutY="28.0" text="4MNBot">
+                        <Label alignment="BASELINE_CENTER" layoutX="10.0" layoutY="28.0" text="EnsaBot" textFill="white">
                             <font>
                                 <Font name="Stencil" size="40.0" />
                             </font>
@@ -116,11 +99,9 @@
                 </Pane>
             </children>
         </AnchorPane>
-        <Pane layoutX="212.0" layoutY="-237.0" prefHeight="319.0" prefWidth="466.0" rotate="-146.3" style="-fx-background-color: linear-gradient( to left top,#36096d, #37d5d6 ); -fx-background-radius: 100;" AnchorPane.topAnchor="-237.0" />
-        <Pane layoutX="745.0" layoutY="173.0" prefHeight="254.0" prefWidth="347.0" rotate="122.7" style="-fx-background-color: linear-gradient( to left top,#36096d, #37d5d6 ); -fx-background-radius: 80;" AnchorPane.rightAnchor="-174.0" />
-        <HBox layoutX="236.0" layoutY="184.0" prefHeight="105.0" prefWidth="708.0">
+        <HBox layoutX="400.0" layoutY="184.0" prefHeight="105.0" prefWidth="708.0">
             <children>
-                <Button fx:id="alexa" mnemonicParsing="false" onAction="#showAlexa" prefHeight="90.0" prefWidth="200.0" style="-fx-background-color: transparent;">
+                <Button fx:id="alexa" mnemonicParsing="false" onAction="#showAlexa" prefHeight="90.0" prefWidth="200.0" style="-fx-background-color: #0088CC;">
                     <graphic>
                         <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                             <image>
@@ -144,46 +125,21 @@
                         <Insets right="50.0" />
                     </HBox.margin>
                 </Button>
-                <Button fx:id="glover" layoutX="260.0" layoutY="10.0" mnemonicParsing="false" onAction="#showGlover" prefHeight="90.0" prefWidth="200.0" style="-fx-background-color: transparent;">
-                    <graphic>
-                        <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
-                            <image>
-                                <Image url="@images/Robot3.png" />
-                            </image>
-                        </ImageView>
-                    </graphic>
-                </Button>
+
             </children>
         </HBox>
-        <Label layoutX="312.0" layoutY="284.0" text="ALEXA" AnchorPane.bottomAnchor="298.0" AnchorPane.topAnchor="284.0">
+        <Label layoutX="480.0" layoutY="284.0" text="ALEXA" AnchorPane.bottomAnchor="298.0" AnchorPane.topAnchor="284.0">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
         </Label>
-        <Label layoutX="806.0" layoutY="280.0" text="GLOVER" AnchorPane.bottomAnchor="302.0" AnchorPane.topAnchor="280.0">
+
+        <Label layoutX="735.0" layoutY="280.0" prefHeight="18.0" prefWidth="60.0" text="SIRI" AnchorPane.bottomAnchor="302.0" AnchorPane.topAnchor="280.0">
             <font>
                 <Font name="Arial Bold" size="14.0" />
             </font>
         </Label>
-        <Label layoutX="572.0" layoutY="280.0" prefHeight="18.0" prefWidth="60.0" text="SIRI" AnchorPane.bottomAnchor="302.0" AnchorPane.topAnchor="280.0">
-            <font>
-                <Font name="Arial Bold" size="14.0" />
-            </font>
-        </Label>
-        <Pane layoutX="209.0" layoutY="134.0" prefHeight="50.0" prefWidth="200.0">
-            <children>
-                <Label alignment="BOTTOM_LEFT" ellipsisString="" graphicTextGap="5.0" layoutX="56.0" layoutY="14.0" prefHeight="30.0" prefWidth="75.0" text="Robots">
-                    <font>
-                        <Font size="24.0" />
-                    </font>
-                </Label>
-                <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="20.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@images/healthcare.png" />
-                    </image>
-                </ImageView>
-            </children>
-        </Pane>
+
         <Button fx:id="closeButton" layoutX="1032.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeHomeOnAcion" prefWidth="54.0" style="-fx-background-color: transparent;" text="X" textFill="#030303">
             <font>
                 <Font name="System Bold" size="14.0" />

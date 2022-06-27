@@ -93,7 +93,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.n2mbot.n4mbot/com.n4mbot.n4mbot.HelloApplication</mainClass>
+                            <mainClass>com.n2mbot.n4mbot/com.ensabot.n4mbot.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

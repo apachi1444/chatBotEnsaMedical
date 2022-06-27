@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Config>
     <State id="0">
-        <message>Hello, My name is Rayonosea, what is your name?</message>
+        <message>Hello, My name is zicasso, what is your name?</message>
         <keywords>       
             <keyword target="16" variable="name" points="2">.*name is ([a-zA-z]+).*</keyword>
             <keyword target="16" variable="name">([a-zA-Z ]+)</keyword>

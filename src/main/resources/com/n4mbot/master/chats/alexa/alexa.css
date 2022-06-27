@@ -1,8 +1,8 @@
 .anchore{
-    -fx-background-color: linear-gradient( to right, #29524a , #e9bcb7 );
+    -fx-background-color: #0088CC;
 }
 .pane{
-    -fx-background-color: #29524a ;
+    -fx-background-color: #04ADFF ;
 }
 /*.labelhi{
     -fx-background-color: #9aa6a6;
@@ -22,7 +22,7 @@
 }
 .but{
     -fx-font-weight: bold;
-    -fx-background-color: #29524a;
+    -fx-background-color: white;
     -fx-background-radius: 32;
     -fx-font-size: 16;
     -fx-text-fill: white;

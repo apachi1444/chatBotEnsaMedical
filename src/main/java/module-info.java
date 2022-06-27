@@ -10,28 +10,27 @@ module com.n2mbot.n4mbot
     requires gax;
 
 
-    exports com.n4mbot.master.hello;
-    opens com.n4mbot.master.hello to javafx.fxml;
+    exports com.ensabot.main.hello;
+    opens com.ensabot.main.hello to javafx.fxml;
 
-    exports com.n4mbot.master.login;
-    opens com.n4mbot.master.login to javafx.fxml;
+    exports com.ensabot.main.login;
+    opens com.ensabot.main.login to javafx.fxml;
 
-    exports com.n4mbot.master.register;
-    opens com.n4mbot.master.register to javafx.fxml;
+    exports com.ensabot.main.register;
+    opens com.ensabot.main.register to javafx.fxml;
 
-    exports com.n4mbot.master.home;
-    opens com.n4mbot.master.home to javafx.fxml;
+    exports com.ensabot.main.home;
+    opens com.ensabot.main.home to javafx.fxml;
 
-    exports com.n4mbot.master.chats.alexa;
-    opens com.n4mbot.master.chats.alexa to javafx.fxml;
+    exports com.ensabot.main.chatbots.alexa;
+    opens com.ensabot.main.chatbots.alexa to javafx.fxml;
 
-    exports com.n4mbot.master.chats.glover;
-    opens com.n4mbot.master.chats.glover to javafx.fxml;
 
-    exports com.n4mbot.master.chats.siri;
-    opens com.n4mbot.master.chats.siri to javafx.fxml;
 
-    exports com.n4mbot.master.parameter;
-    opens com.n4mbot.master.parameter to javafx.fxml;
+    exports com.ensabot.main.chatbots.siri;
+    opens com.ensabot.main.chatbots.siri to javafx.fxml;
+
+    exports com.ensabot.main.parameter;
+    opens com.ensabot.main.parameter to javafx.fxml;
 
 }

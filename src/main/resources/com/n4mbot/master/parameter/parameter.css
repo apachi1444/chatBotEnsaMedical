@@ -1,12 +1,12 @@
 .anchore{
-    -fx-background-color:#2C3E50;
+    -fx-background-color:#04ADFF;
 }
 .anchorepane{
-    -fx-background-color: linear-gradient( to bottom ,#2C3E50,#8ca8a2);
+    -fx-background-color: #0088CC;
 }
 .butt{
     -fx-font-weight: bold;
-    -fx-background-color: #2C3E50;
+    -fx-background-color: #04ADFF;
     -fx-background-radius: 32;
     -fx-font-size: 16;
     -fx-text-fill: white;

@@ -16,7 +16,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="937.0" styleClass="anchore" stylesheets="@alexa.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.n4mbot.master.chats.alexa.AlexaController">
     <children>
-        <Pane layoutX="262.0" layoutY="-1.0" prefHeight="61.0" prefWidth="676.0" style="-fx-background-color: #5a857c;">
+        <Pane layoutX="262.0" layoutY="-1.0" prefHeight="61.0" prefWidth="676.0" style="-fx-background-color: #04ADFF;">
             <children>
                 <Label layoutX="18.0" layoutY="14.0" prefWidth="64.0" text="Alexa" textFill="WHITE">
                     <font>
@@ -97,7 +97,7 @@
                         <Font size="16.0" />
                     </font>
                 </TextField>
-                <Button fx:id="sendButton" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="558.0" layoutY="3.0" minWidth="50.0" mnemonicParsing="false" onAction="#send2" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: transparent;" styleClass="but" stylesheets="@alexa.css">
+                <Button fx:id="sendButton" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="558.0" layoutY="3.0" minWidth="50.0" mnemonicParsing="false" onAction="#send2" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: white;" styleClass="but" stylesheets="@alexa.css">
                <font>
                   <Font size="7.0" />
                </font>
