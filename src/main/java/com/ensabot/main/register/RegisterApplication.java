@@ -14,7 +14,7 @@ public class RegisterApplication extends Application {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(RegisterApplication.class.getResource("register.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 920, 720);
-            stage.setTitle("N4MBot-Register");
+            stage.setTitle("Ensa-Bot-Register");
             stage.setScene(scene);
             stage.setWidth(920);
             stage.setHeight(720);

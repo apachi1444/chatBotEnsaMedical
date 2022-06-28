@@ -14,7 +14,7 @@ public class ParameterApplication extends Application {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(ParameterApplication.class.getResource("parameter.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
-            primaryStage.setTitle("N4MBot-Parameter");
+            primaryStage.setTitle("Ensa-Bot-Parameter");
             primaryStage.initStyle(StageStyle.UNDECORATED);
             primaryStage.setScene(scene);
             primaryStage.show();

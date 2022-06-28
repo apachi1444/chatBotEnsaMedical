@@ -1,4 +1,4 @@
-package com.ensabot.main.home;
+package com.ensabot.main.chats.alexa;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,25 +6,24 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-import java.io.IOException;
 
-public class HomeApplication extends Application {
+public class AlexaApplication extends Application {
     @Override
-    public void start(Stage stage) {
+    public void start(Stage stage){
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(HomeApplication.class.getResource("home.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(AlexaApplication.class.getResource("alexa.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
-            stage.setTitle("Ensa-Bot");
+            stage.setTitle("EnsaBot-Alexa");
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setScene(scene);
             stage.show();
-        } catch (Exception e) {
-            e.printStackTrace();
+        }catch (Exception x){
+            x.printStackTrace();
         }
+
     }
 
     public static void main(String[] args) {
         launch();
     }
-
 }

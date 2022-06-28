@@ -34,7 +34,7 @@ public class HelloController {
             FXMLLoader fxmlLoader = new FXMLLoader(url);
             Stage primaryStage = new Stage();
             Scene scene = new Scene(fxmlLoader.load());
-            primaryStage.setTitle("4MNBot");
+            primaryStage.setTitle("Ensa-Bot");
             primaryStage.initStyle(StageStyle.UNDECORATED);
             primaryStage.setScene(scene);
             primaryStage.show();

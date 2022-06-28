@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.n2mbot</groupId>
-    <artifactId>n4mbot</artifactId>
+    <groupId>com.ensabot</groupId>
+    <artifactId>ensabot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>n4mbot</name>
+    <name>ensabot</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -93,7 +93,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.n2mbot.n4mbot/com.ensabot.n4mbot.HelloApplication</mainClass>
+                            <mainClass>com.ensabot.main.hello.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

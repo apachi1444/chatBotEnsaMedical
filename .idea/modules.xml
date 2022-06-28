@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/n4mbot.iml" filepath="$PROJECT_DIR$/n4mbot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ensabot.iml" filepath="$PROJECT_DIR$/ensabot.iml" />
     </modules>
   </component>
 </project>

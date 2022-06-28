@@ -1,8 +1,9 @@
 package com.ensabot.main.home;
 
-import com.ensabot.main.chatbots.alexa.AlexaApplication;
-import com.ensabot.main.chatbots.siri.SiriApplication;
+import com.ensabot.main.chats.alexa.AlexaApplication;
+import com.ensabot.main.chats.siri.SiriApplication;
 import com.ensabot.main.parameter.ParameterApplication;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -74,7 +75,7 @@ public class HomeController {
                 FXMLLoader fxmlLoader = new FXMLLoader(url);
                 Scene scene = new Scene(fxmlLoader.load());
                 Stage primaryStage = new Stage();
-                primaryStage.setTitle("N4MBot");
+                primaryStage.setTitle("Ensa-Bot");
                 primaryStage.initStyle(StageStyle.UNDECORATED);
                 primaryStage.setScene(scene);
                 primaryStage.show();
@@ -89,7 +90,7 @@ public class HomeController {
                 FXMLLoader fxmlLoader = new FXMLLoader(url);
                 Scene scene = new Scene(fxmlLoader.load());
                 Stage primaryStage = new Stage();
-                primaryStage.setTitle("N4MBot");
+                primaryStage.setTitle("Ensa-Bot");
                 primaryStage.initStyle(StageStyle.UNDECORATED);
                 primaryStage.setScene(scene);
                 primaryStage.show();

@@ -14,7 +14,7 @@ public class LoginApplication extends Application {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(LoginApplication.class.getResource("login.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-            primaryStage.setTitle("N4MBot-Login");
+            primaryStage.setTitle("Ensa-Bot-Login");
             primaryStage.initStyle(StageStyle.UNDECORATED);
             primaryStage.setScene(scene);
             primaryStage.show();

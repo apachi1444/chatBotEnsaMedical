@@ -117,7 +117,7 @@ public class RegisterController {
                 FXMLLoader fxmlLoader = new FXMLLoader(url);
                 Stage primaryStage = new Stage();
                 Scene scene = new Scene(fxmlLoader.load());
-                primaryStage.setTitle("N4MBOT-" + nom);
+                primaryStage.setTitle("Ensa-Bot-" + nom);
                 primaryStage.initStyle(StageStyle.UNDECORATED);
                 primaryStage.setScene(scene);
                 primaryStage.show();

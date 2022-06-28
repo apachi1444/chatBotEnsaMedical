@@ -20,12 +20,8 @@ public class Main {
 
     }
 
-    public String chatBot(Bot bot) {
-        return bot.getMessage();
-    }
 
 
-    @SuppressWarnings("unchecked")
     public static String send(String send, Bot bot) {
 
         String response = bot.send(send);
@@ -42,13 +38,5 @@ public class Main {
 
     // End of variables declaration//GEN-END:variables
     public static void main(String[] args) {
-        Main main = new Main("data.xml");
-        System.out.println(main.chatBot(main.bot));
-        System.out.println(main.send("ayoub", main.bot));
-        System.out.println(main.send("fine", main.bot));
-        System.out.println(main.send("play footbal", main.bot));
-        System.out.println(main.send("weather", main.bot));
-        System.out.println(main.send("man", main.bot));
-        System.out.println(main.send("yes", main.bot));
     }
 }

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="n4mbot" />
+        <module name="ensabot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="n4mbot" target="17" />
+      <module name="ensabot" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

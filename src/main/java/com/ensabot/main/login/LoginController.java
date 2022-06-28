@@ -92,7 +92,7 @@ public class LoginController {
                 FXMLLoader fxmlLoader = new FXMLLoader(url);
                 Stage primaryStage = new Stage();
                 Scene scene = new Scene(fxmlLoader.load());
-                primaryStage.setTitle("N4MBot-Home");
+                primaryStage.setTitle("Ensa-Bot-Home");
                 primaryStage.initStyle(StageStyle.UNDECORATED);
                 primaryStage.setScene(scene);
                 primaryStage.show();
